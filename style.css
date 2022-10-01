@@ -1,4 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+    width: 1440px;
+    height: 6575px;
+    margin: auto;
+}
+.basliq{
+    position: relative;
+}
 .logo{
     position: absolute;
     width: 112px;
@@ -7,7 +15,7 @@
     top: 21px;
 }
 .basliq svg{
-    position: absolute;
+    position: relative;
     width: 274px;
     height: 41px;
     left: 921px;
@@ -20,15 +28,12 @@
     left: 890px;
     top: 223px;
 }
-.head h1{
+.head{
     position: absolute;
     width: 628px;
     height: 190px;
     left: 122px;
-    top: 248px;
-}
-.head p{
-    
+    top: 208px;
 }
 .head h1{
     font-family: 'Roboto Slab';
@@ -38,13 +43,13 @@
     line-height: 101.38%;    
 }
 .head p{
-    position: absolute;
+    width: 414px;
+    margin-top: -40px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 150%; 
-    top: 427px;   
+    line-height: 150%;  
 }
 .nav div{
     display: flex;
@@ -95,4 +100,450 @@
     height: 32px;
     left: 500px;
     top: 167px;
+}
+.bluetext{
+    border-radius: 5px;
+    background-color: #1E4681;
+    position: absolute;
+    width: 483.63px;
+    height: 200.02px;
+    left: 409.39px;
+    top: 666.62px;
+    color: #ffffff;
+}
+.bluetext div:first-child{
+    position: absolute;
+    width: 410px;
+    height: 113px;
+    left: 26.3px;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 130%;
+}
+.bluetext div:last-child{
+    position: absolute;
+    width: 280.5px;
+    height: 45.64px;
+    left: 184.61px;
+    top: 144.38px;
+    text-align: right;    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+}
+.ikincihisse{
+    position: relative;
+    top: 840px;
+}
+.first h1{
+    position: absolute;
+    width: 365px;
+    height: 93px;
+    left: 121px;
+    top: 91px;
+
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 101.38%;
+}
+.paragraf{
+    position: absolute;
+    width: 662px;
+    height: 374px;
+    left: 121px;
+    top: 202px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+}
+.second svg{
+    position: absolute;
+    width: 366px;
+    height: 59px;
+    left: 927px;
+    top: 511px;
+}
+.second img{
+    position: absolute;
+    width: 314px;
+    height: 315px;
+    left: 949px;
+    top: 226px;
+}
+.foot img {
+    position: absolute;
+    width: 232px;
+    height: 203px;
+    left: 121px;
+    top: 670px;
+}
+.foot svg{
+    position: absolute;
+    width: 189px;
+    height: 32px;
+    left: 154px;
+    top: 857px;
+}
+.foot div:nth-child(2){
+    position: absolute;
+    width: 150px;
+    height: 39px;
+    left: 475px;
+    top: 740px;
+}
+.foot div:nth-child(3){
+    position: absolute;
+    width: 150px;
+    height: 39px;
+    left: 713px;
+    top: 740px;
+}
+.foot div:nth-child(4){
+    position: absolute;
+    width: 150px;
+    height: 39px;
+    left: 949px;
+    top: 740px;
+}
+.foot h2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 130%;
+}
+.foot p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+}
+.kursplan{
+    position: relative;
+    top: 3246px;
+}
+.kursplan h1{
+    position: absolute;
+    width: 905px;
+    height: 93px;
+    left: 121px;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 101.38%;   
+}
+.oscar{
+    position: absolute;
+    width: 399px;
+    height: 328px;
+    left: 84px;
+    top: 228px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;    
+}
+.oscar div:first-child img{
+    position: absolute;
+    width: 399px;
+    height: 160px;
+}
+.oscar div:last-child h3{
+    position: absolute;
+    width: 365px;
+    height: 39px;
+    left: 20px;
+    top: 146px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 130%;
+}
+.oscar div:last-child p{
+    position: absolute;
+    width: 365px;
+    height: 63px;
+    left: 20px;
+    top: 220px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 130%;
+}
+.defter{
+    position: absolute;
+    width: 399px;
+    height: 328px;
+    left: 520px;
+    top: 228px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;    
+}
+.defter div:first-child img{
+    position: absolute;
+    width: 399px;
+    height: 160px;
+}
+.defter div:last-child h3{
+    position: absolute;
+    width: 365px;
+    height: 39px;
+    left: 20px;
+    top: 146px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 130%;
+}
+.defter div:last-child p{
+    position: absolute;
+    width: 365px;
+    height: 63px;
+    left: 20px;
+    top: 220px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 130%;
+}
+.sinema{
+    position: absolute;
+    width: 399px;
+    height: 328px;
+    left: 956px;
+    top: 228px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;    
+}
+.sinema div:first-child img{
+    position: absolute;
+    width: 399px;
+    height: 160px;
+}
+.sinema div:last-child h3{
+    position: absolute;
+    width: 365px;
+    height: 39px;
+    left: 20px;
+    top: 146px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 130%;
+}
+.sinema div:last-child p{
+    position: absolute;
+    width: 365px;
+    height: 63px;
+    left: 20px;
+    top: 220px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 130%;
+}
+.kadr{
+    position: absolute;
+    width: 399px;
+    height: 328px;
+    left: 84px;
+    top: 597px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;    
+}
+.kadr div:first-child img{
+    position: absolute;
+    width: 399px;
+    height: 160px;
+}
+.kadr div:last-child h3{
+    position: absolute;
+    width: 365px;
+    height: 39px;
+    left: 20px;
+    top: 146px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 130%;
+}
+.kadr div:last-child p{
+    position: absolute;
+    width: 365px;
+    height: 63px;
+    left: 20px;
+    top: 220px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 130%;
+}
+.smile{
+    position: absolute;
+    width: 399px;
+    height: 328px;
+    left: 520px;
+    top: 597px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;    
+}
+.smile div:first-child img{
+    position: absolute;
+    width: 399px;
+    height: 160px;
+}
+.smile div:last-child h3{
+    position: absolute;
+    width: 365px;
+    height: 39px;
+    left: 20px;
+    top: 146px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 130%;
+}
+.smile div:last-child p{
+    position: absolute;
+    width: 365px;
+    height: 63px;
+    left: 20px;
+    top: 220px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 130%;
+}
+.TV{
+    position: absolute;
+    width: 399px;
+    height: 328px;
+    left: 956px;
+    top: 597px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;    
+}
+.TV div:first-child img{
+    position: absolute;
+    width: 399px;
+    height: 160px;
+}
+.TV div:last-child h3{
+    position: absolute;
+    width: 365px;
+    height: 39px;
+    left: 20px;
+    top: 146px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 130%;
+}
+.TV div:last-child p{
+    position: absolute;
+    width: 365px;
+    height: 63px;
+    left: 20px;
+    top: 220px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 130%;
+}
+.azadliq{
+    position: absolute;
+    width: 399px;
+    height: 328px;
+    left: 84px;
+    top: 967px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;    
+}
+.azadliq div:first-child img{
+    position: absolute;
+    width: 399px;
+    height: 160px;
+}
+.azadliq div:last-child h3{
+    position: absolute;
+    width: 365px;
+    height: 39px;
+    left: 20px;
+    top: 146px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 130%;
+}
+.azadliq div:last-child p{
+    position: absolute;
+    width: 365px;
+    height: 63px;
+    left: 20px;
+    top: 220px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 130%;
+}
+.acqi{
+    position: absolute;
+    width: 399px;
+    height: 328px;
+    left: 520px;
+    top: 967px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;    
+}
+.acqi div:first-child img{
+    position: absolute;
+    width: 399px;
+    height: 160px;
+}
+.acqi div:last-child h3{
+    position: absolute;
+    width: 365px;
+    height: 39px;
+    left: 20px;
+    top: 146px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 130%;
+}
+.acqi div:last-child p{
+    position: absolute;
+    width: 365px;
+    height: 63px;
+    left: 20px;
+    top: 220px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 130%;
 }
