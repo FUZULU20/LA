@@ -3,6 +3,7 @@
 border-radius: 0px;
 background-color: #9DC9C8;
 position: absolute;
+margin:auto;
 }
 .header{
     height: 66px;
@@ -26,7 +27,6 @@ margin-bottom:54px;
     margin-left:122px;
     margin-right:1148px;
     margin-top:54px;
-    margin-bottom:15px;
     font-family:'Roboto';
 font-size: 25px;
 font-weight: 400;
@@ -39,11 +39,9 @@ text-align: left;
     height: 181px;
     width: 481px;
     border-radius: nullpx;
-    margin-bottom:30px;
     margin-left:122px;
     margin-right:837px;
-    margin-bottom:300px;
-    margin-top:15px;
+    margin-top:-80px;
     position: absolute;
     font-family: 'Roboto';
 font-style: normal;
@@ -51,4 +49,58 @@ font-weight: 400;
 font-size: 80px;
 line-height: 101.38%;
 }
+.a{
+    height: 32px;
+    width: 294px;
+    font-family: 'Roboto';
+font-size: 25px;
+font-weight: 400px;
+line-height: 25.35px;
+letter-spacing: 0em;
+margin-top: -300px;
+}
+.b{
+    height: 70px;
+    width: 294px;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 400px;
+    line-height: 18.25px;
+    letter-spacing: 0em;
+
+}
+.c{
+    height: 32px;
+width: 322px;
+font-size: 25px;
+font-weight: 400px;
+line-height: 25.35px;
+letter-spacing: 0em;
+font-family: 'Roboto';
+font-style: normal;
+font-size: 18px;
+margin-top:-140px;
+}
+.d{
+    height: 70px;
+width: 294px;
+font-family: 'Roboto';
+font-size: 18px;
+font-weight: 400px;
+line-height: 18px;
+letter-spacing: 0em;
+font-style: normal;
+}
+.text1{
+    margin-left:121px;
+    margin-top:484px;
+    
+}
+.text2{
+    margin-left:485px;
+    
+}
+
+
+
 
