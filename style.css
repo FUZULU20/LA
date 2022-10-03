@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+    width: 1440px;
+    height: 6575px;
+    margin: auto;
+}
+.ucuncu{
+position: relative;
+top: 2000px;
+left: 121px;
+}
+.birincihas {
+position: relative;
+width: 667px;
+height: 93px;
+left: 0px;
+top: 0px;
+
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 55px;
+line-height: 101.38%;
+}
+.ikinciha{
+position: relative;
+top: 22px;
+}
+.ikincihas {
+position: absolute;
+width: 150px;
+height: 39px;
+left: 1px;
+color: #1E4681;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 130%;
+}
+.birincip {
+position: absolute;
+width: 223px;
+height: 39px;
+left: 1px;
+top: 42px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 130%;
+}
+.ucuncuha{
+position: relative;
+top: 22px;
+}
+.ucuncuhas {
+    position: absolute;
+width: 214px;
+height: 39px;
+left: 346px;
+color: #1E4681;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 130%;
+}
+.ikincip {
+    position: absolute;
+width: 271px;
+height: 109px;
+left: 346px;
+top: 42px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 130%;
+}
+.dorduncu{
+    position: relative;
+top: 22px;
+}
+.dorduncuhas {
+    position: absolute;
+width: 150px;
+height: 39px;
+left: 730px;
+color: #1E4681;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 130%;
+}
+.ucuncup {
+    position: absolute;
+width: 245px;
+height: 39px;
+left: 730px;
+top: 42px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 130%;
+}
+.listreshad{
+        position: relative;
+width: 667px;
+height: 93px;
+left: 1px;
+top: 377px;
+}
+.besincihas {
+position: relative;
+width: 667px;
+height: 93px;
+left: 1px;
+top: 0px;
+
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 55px;
+line-height: 101.38%;
+}
+ul{
+position: relative;
+width: 675px;
+height: 358px;
+left: 9px;
+top: -20px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 150%;
+}
+@media (max-width: 834px){
+body{
+    position: relative;
+    width: 834px;
+    height: 3800px;
+    margin: auto;
+}
+.ucuncu{
+    position: relative;
+    top: 1168.17px;
+}
+.birincihas{
+    position: absolute;
+    width: 386.3px;
+    height: 53.86px;
+    left: 70.08px;
+    top: 0px;
+    
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 101.38%;
+}
+.ikinciha{
+}
+.ikincihas {
+    position: absolute;
+width: 86.88px;
+height: 22.59px;
+left: 70.66px;
+top: 104.88px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 130%;
+}
+.birincip {
+    position: absolute;
+width: 153px;
+height: 22px;
+left: 71px;
+top: 128.3px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 130%;
+}
+.ucuncuha{
+}
+.ucuncuhas {
+    position: absolute;
+width: 123.94px;
+height: 22.59px;
+left: 270.47px;
+top: 1273.58px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 130%;
+}
+.ikincip {
+}
+.dorduncu{
+}
+.dorduncuhas {
+}
+.ucuncup {
+}
+.listreshad{
+}
+.besincihas {
+}
+ul{
+}
+}
